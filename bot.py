@@ -5,7 +5,7 @@ import logging
 import time
 
 # Configuration
-TOKEN = ""  # Use an environment variable for security
+TOKEN = "" 
 GUILD_NAME = '(your name) IS EVERYWHERE'  # Server rename name
 CHANNEL_NAME = 'Testing'  # Spam channel name
 SPAM_MESSAGE = "@everyone **Wake up, (your desired name) IS HERE** :joy: https://tenor.com/view/sinister-nuked-nuke-discord-raid-gif-24293736"
