@@ -62,32 +62,6 @@ This bot is designed to demonstrate advanced interactions with Discord's API usi
 
 ---
 
-## Security Considerations
-### For the Author
-1. Environment Variables:
-   - Store sensitive information like the bot token in environment variables (`DISCORD_TOKEN`) instead of hardcoding them.
-   - Use `.env` files with libraries like `python-dotenv` to manage environment variables securely.
-
-2. Authorized Users:
-   - Limit access to the bot by specifying trusted user IDs in the `AUTHORIZED_USERS` array.
-   - Regularly review and update the list of authorized users.
-
-3. Role Exclusions:
-   - Protect important roles (e.g., Admin, Moderator) by adding them to the `EXCLUDED_ROLES` array.
-
-4. Rate Limits:
-   - Implement delays (`asyncio.sleep`) to avoid hitting Discord's rate limits, which could result in the bot being temporarily banned.
-
-5. Logging:
-   - Log all operations for accountability and debugging.
-   - Store logs securely and restrict access to authorized personnel only.
-
-6. Hosting Environment:
-   - Host the bot on secure servers with restricted access.
-   - Avoid running the bot on public or shared machines.
-
----
-
 ## Usage
 1. Prerequisites:
    - Python 3.8 or higher.
